@@ -1,0 +1,40 @@
+server:
+  port: 8084
+  # tomcat的https地址问题, 加这个可以直接获得https的url
+  tomcat:
+    remote-ip-header: X-Forwarded-For
+    protocol-header: X-Forwarded-Proto
+    port-header: X-Forwarded-Port
+  use-forward-headers: true
+# 日志配置
+logging:
+  file: ./log/service.log
+  level:
+    com.hyhcoder.protal: debug
+    org.springframework.boot.autoconfigure: ERROR
+# spring常规配置
+spring:
+  # 数据库及连接池
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.40.130:3306/mall?useUnicode=true&useSSL=false
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 初始化大小，最小，最大
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间，单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+  # redis配置
+  redis:
+    host: 192.168.40.130
+    port: 6379
+    password: 123456
+
+
