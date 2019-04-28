@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6488ac37-a89d-4994-860e-63fb53afc86d" name="Default Changelist" comment="" />
+    <list default="true" id="6488ac37-a89d-4994-860e-63fb53afc86d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/quickframe-protal/target/" />
@@ -28,26 +32,28 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickframe-protal/pom.xml">
+        <entry file="file://$PROJECT_DIR$/quickframe-mbg/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="59" selection-start-line="59" selection-end-line="63" selection-end-column="21" />
+            <state relative-caret-position="624">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quickframe-mbg/pom.xml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="144">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -107,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
+            <state relative-caret-position="960">
               <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
             </state>
           </provider>
@@ -130,6 +136,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,14 +166,9 @@
         <option value="$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/mapper/PmsProductMapper.java" />
         <option value="$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/mapper/CmsHelpMapper.java" />
         <option value="$PROJECT_DIR$/quickframe-mbg/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -176,10 +180,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="quickframe" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="quickframe-mbg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -194,15 +194,6 @@
           <item name="quickframe-mbg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="quickframe-protal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="quickframe-protal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -215,11 +206,12 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showExcludedFiles Scope="true" ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,273 +232,27 @@
             <path>
               <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
               <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-mbg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
               <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="protal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quickframe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickframe" type="462c0819:PsiDirectoryNode" />
-              <item name="quickframe-protal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hyhcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="protal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556374602730" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556458726989" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/quickframe-mbg" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenRunHelper" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -533,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProtalApplicationTests.contextLoads (1)">
+  <component name="RunManager" selected="Spring Boot.ProtalApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hyhcoder.quickframe.Generator" />
       <module name="quickframe-mbg" />
@@ -580,30 +326,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickframeProtalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="quickframe-protal" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hyhcoder.protal.QuickframeProtalApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.QuickframeProtalApplication" />
-      <item itemvalue="Spring Boot.ProtalApplication" />
       <item itemvalue="Application.Generator" />
-      <item itemvalue="JUnit.QuickframeProtalApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.ProtalApplicationTests.contextLoads (1)" />
+      <item itemvalue="JUnit.ProtalApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.ProtalApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProtalApplicationTests.contextLoads (1)" />
-        <item itemvalue="JUnit.QuickframeProtalApplicationTests.contextLoads" />
         <item itemvalue="Application.Generator" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\hyhcoder\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -616,6 +351,12 @@
       <workItem from="1556351568179" duration="1249000" />
       <workItem from="1556352840996" duration="533000" />
       <workItem from="1556353391345" duration="12181000" />
+      <workItem from="1556410494144" duration="74000" />
+      <workItem from="1556458361575" duration="476000" />
+      <workItem from="1556459340136" duration="151000" />
+      <workItem from="1556459530590" duration="45000" />
+      <workItem from="1556459712278" duration="534000" />
+      <workItem from="1556460267970" duration="371000" />
     </task>
     <servers />
   </component>
@@ -652,13 +393,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17099000" />
+    <option name="totallyTimeSpent" value="18750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17609392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -666,9 +407,6 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6507592" />
@@ -681,7 +419,11 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -692,13 +434,11 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/quickframe-protal/.mvn/wrapper/MavenWrapperDownloader.java">
@@ -716,27 +456,9 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframembg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/controller/HelpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/resources/mapper/cms/HelpMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframembg.java" />
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/controller/HelpController.java" />
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/resources/mapper/cms/HelpMapper.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -744,13 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/model/Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/model/Help.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
@@ -758,30 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/service/IHelpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/serviceImpl/HelpServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/mapper/HelpMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/xml/CmsHelpMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/service/IHelpService.java" />
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/serviceImpl/HelpServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/cms/mapper/HelpMapper.java" />
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/xml/CmsHelpMapper.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -790,25 +486,11 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-protal/src/main/java/com/hyhcoder/protal/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-protal/src/main/java/com/hyhcoder/protal/controller/TestController.java" />
     <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="95" column="52" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2891#3029#0" expanded="true" />
-            <element signature="e#3028#3029#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,9 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,20 +518,11 @@
     <entry file="file://$PROJECT_DIR$/quickframe-protal/log/service.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/test/java/ProtalApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/test/java/ProtalApplication.java" />
     <entry file="file://$PROJECT_DIR$/quickframe-protal/src/test/java/com/hyhcoder/protal/ProtalApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,15 +549,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quickframe-protal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="1416">
           <caret line="59" selection-start-line="59" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/test/java/com/hyhcoder/quickframe/ProtalApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/mapper/PmsProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/model/CmsHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/resources/mapper/CmsHelpMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/model/PmsProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/mapper/CmsHelpMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="960">
           <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
         </state>
       </provider>
@@ -899,55 +611,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/resources/mapper/CmsHelpMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/model/CmsHelp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/mapper/PmsProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/mapper/CmsHelpMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/main/java/com/hyhcoder/quickframe/model/PmsProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickframe-mbg/src/test/java/com/hyhcoder/quickframe/ProtalApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickframe-mbg/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="624">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1001,7 +678,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>quickframe-mbg</last-edited>
+          <last-edited>quickframe</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
