@@ -2,7 +2,6 @@ package com.hyhcoder.quickframe.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -10,7 +9,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 帮助表
+ * 帮助分类表
  * </p>
  *
  * @author hyhcoder
@@ -19,26 +18,28 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class CmsHelp implements Serializable {
+public class CmsHelpCategory implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
-    private Long categoryId;
+    private String name;
 
+    /**
+     * 分类图标
+     */
     private String icon;
 
-    private String title;
+    /**
+     * 专题数量
+     */
+    private Integer helpCount;
 
     private Integer showStatus;
 
-    private LocalDateTime createTime;
-
-    private Integer readCount;
-
-    private String content;
+    private Integer sort;
 
 
 }

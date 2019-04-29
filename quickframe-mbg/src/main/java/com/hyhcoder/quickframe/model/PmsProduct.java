@@ -15,9 +15,11 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author hyhcoder
- * @since 2019-04-27
+ * @since 2019-04-29
  */
 @Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
 public class PmsProduct implements Serializable {
 
     private static final long serialVersionUID = 1L;
