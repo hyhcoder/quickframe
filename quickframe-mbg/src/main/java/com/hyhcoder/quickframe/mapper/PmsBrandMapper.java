@@ -1,6 +1,6 @@
 package com.hyhcoder.quickframe.mapper;
 
-import com.hyhcoder.quickframe.model.PmsBrand;
+import com.hyhcoder.quickframe.model.PmsBrandDo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author hyhcoder
  * @since 2019-04-29
  */
-public interface PmsBrandMapper extends BaseMapper<PmsBrand> {
+public interface PmsBrandMapper extends BaseMapper<PmsBrandDo> {
 
 }

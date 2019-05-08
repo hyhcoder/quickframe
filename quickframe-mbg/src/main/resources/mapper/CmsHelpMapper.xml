@@ -3,7 +3,7 @@
 <mapper namespace="com.hyhcoder.quickframe.mapper.CmsHelpMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.hyhcoder.quickframe.model.CmsHelp">
+    <resultMap id="BaseResultMap" type="com.hyhcoder.quickframe.model.CmsHelpDo">
         <id column="id" property="id" />
         <result column="category_id" property="categoryId" />
         <result column="icon" property="icon" />

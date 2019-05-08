@@ -3,7 +3,7 @@
 <mapper namespace="com.hyhcoder.quickframe.mapper.PmsProductMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.hyhcoder.quickframe.model.PmsProduct">
+    <resultMap id="BaseResultMap" type="com.hyhcoder.quickframe.model.PmsProductDo">
         <id column="id" property="id" />
         <result column="brand_id" property="brandId" />
         <result column="product_category_id" property="productCategoryId" />

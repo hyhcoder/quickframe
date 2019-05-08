@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class PmsProduct implements Serializable {
+public class PmsProductDo implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
