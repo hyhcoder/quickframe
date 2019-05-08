@@ -61,6 +61,8 @@ public class CommonGenerator {
         gc.setMapperName("%sMapper");
         // 指定xml的名称
         gc.setXmlName("%sMapper");
+        // 设置指定model名
+        gc.setEntityName("%sDo");
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
