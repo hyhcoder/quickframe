@@ -117,6 +117,7 @@ public class CommonGenerator {
             }
         });
 
+        // 加载配置
         cfg.setFileOutConfigList(focList);
         mpg.setCfg(cfg);
 
