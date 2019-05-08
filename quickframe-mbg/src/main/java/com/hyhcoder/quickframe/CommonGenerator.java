@@ -80,12 +80,14 @@ public class CommonGenerator {
         pc.setParent("com.hyhcoder.quickframe");
         // Entity包名
         pc.setEntity("model");
+
         // Service包名
         // pc.setService("service");
         // Service Impl包名
         // pc.setServiceImpl("serviceImpl");
         // Controller包名
         // pc.setController("controller");
+
         // Mapper包名
         pc.setMapper("mapper");
         // Mapper XML包名
