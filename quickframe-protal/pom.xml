@@ -59,8 +59,9 @@
 
         <!-- 数据库连接及druid连接池 -->
         <dependency>
-          <groupId>com.alibaba</groupId>
-          <artifactId>druid</artifactId>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>${com.alibaba.druid.version}</version>
         </dependency>
 
         <!-- devtools开发工具 -->
