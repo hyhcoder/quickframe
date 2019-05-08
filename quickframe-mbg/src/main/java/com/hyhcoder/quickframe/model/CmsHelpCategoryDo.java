@@ -37,6 +37,9 @@ public class CmsHelpCategoryDo implements Serializable {
      */
     private Integer helpCount;
 
+    /**
+     * 展示状态
+     */
     private Integer showStatus;
 
     private Integer sort;
