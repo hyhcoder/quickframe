@@ -1,4 +1,4 @@
-package com.hyhcoder.protal;
+package com.hyhcoder.quickframe.protal;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
