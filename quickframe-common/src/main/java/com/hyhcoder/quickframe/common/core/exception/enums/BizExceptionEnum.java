@@ -1,6 +1,6 @@
-package com.hyhcoder.quickframe.protal.common.core.exception.enums;
+package com.hyhcoder.quickframe.common.core.exception.enums;
 
-import com.hyhcoder.quickframe.protal.common.core.exception.AbstractBaseExceptionEnum;
+import com.hyhcoder.quickframe.common.core.exception.AbstractBaseExceptionEnum;
 
 /**
  * 一些业务异常的枚举

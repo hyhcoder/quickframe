@@ -1,4 +1,4 @@
-package com.hyhcoder.quickframe.protal.common.core.reqres.request;
+package com.hyhcoder.quickframe.common.core.reqres.request;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.util.StrUtil;

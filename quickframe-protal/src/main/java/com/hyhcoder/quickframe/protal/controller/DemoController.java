@@ -1,7 +1,7 @@
 package com.hyhcoder.quickframe.protal.controller;
 
 
-import com.hyhcoder.quickframe.protal.common.core.reqres.response.ResponseData;
+import com.hyhcoder.quickframe.common.core.reqres.response.ResponseData;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

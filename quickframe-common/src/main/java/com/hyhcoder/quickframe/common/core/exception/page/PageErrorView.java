@@ -1,4 +1,4 @@
-package com.hyhcoder.quickframe.protal.common.core.exception.page;
+package com.hyhcoder.quickframe.common.core.exception.page;
 
 import org.springframework.web.servlet.View;
 

@@ -1,4 +1,4 @@
-package com.hyhcoder.quickframe.protal.common.core.reqres.response;
+package com.hyhcoder.quickframe.common.core.reqres.response;
 
 /**
  * @author hyhcoder

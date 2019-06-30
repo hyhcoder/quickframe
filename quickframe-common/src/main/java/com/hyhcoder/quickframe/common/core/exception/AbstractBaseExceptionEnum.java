@@ -1,4 +1,4 @@
-package com.hyhcoder.quickframe.protal.common.core.exception;
+package com.hyhcoder.quickframe.common.core.exception;
 
 /**
  * @author hyhcoder
