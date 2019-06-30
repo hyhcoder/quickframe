@@ -1,4 +1,4 @@
-package com.hyhcoder.common.core.util;
+package com.hyhcoder.quickframe.protal.common.core.util;
 
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;

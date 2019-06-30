@@ -1,4 +1,4 @@
-package com.hyhcoder.common.core.reqres.response;
+package com.hyhcoder.quickframe.protal.common.core.reqres.response;
 
 import lombok.Data;
 

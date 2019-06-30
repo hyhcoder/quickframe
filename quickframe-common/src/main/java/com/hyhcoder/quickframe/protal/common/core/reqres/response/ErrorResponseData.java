@@ -1,4 +1,4 @@
-package com.hyhcoder.common.core.reqres.response;
+package com.hyhcoder.quickframe.protal.common.core.reqres.response;
 
 import lombok.Data;
 
@@ -11,7 +11,7 @@ import lombok.Data;
 public class ErrorResponseData extends ResponseData {
 	
 	/**
-	 * 异常的具体类名称
+	 * 异常的具体类名称, 若有必要可以进行设置;
 	 */
 	private String exceptionClazz;
 	

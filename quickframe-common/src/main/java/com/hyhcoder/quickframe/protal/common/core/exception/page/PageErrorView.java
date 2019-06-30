@@ -1,4 +1,4 @@
-package com.hyhcoder.common.core.exception.page;
+package com.hyhcoder.quickframe.protal.common.core.exception.page;
 
 import org.springframework.web.servlet.View;
 
@@ -7,10 +7,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**
+ *
  * 错误页面的默认跳转(例如请求404的时候,默认走这个视图解析器)
  *
  * @author hyhcoder
- * @date 2019/6/29 16:33
+ * @date 2019/6/30 15:42
  */
 public class PageErrorView implements View {
 	

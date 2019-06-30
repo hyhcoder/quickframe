@@ -1,21 +1,18 @@
-package com.hyhcoder.common.core.exception.aop;
+package com.hyhcoder.quickframe.protal.common.core.exception.aop;
 
 
-import com.hyhcoder.common.core.exception.ServiceException;
-import com.hyhcoder.common.core.exception.enums.BizExceptionEnum;
-import com.hyhcoder.common.core.reqres.response.ErrorResponseData;
+import com.hyhcoder.quickframe.protal.common.core.exception.ServiceException;
+import com.hyhcoder.quickframe.protal.common.core.exception.enums.BizExceptionEnum;
+import com.hyhcoder.quickframe.protal.common.core.reqres.response.ErrorResponseData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.*;
 
 import java.lang.reflect.UndeclaredThrowableException;
 
-import static com.hyhcoder.common.core.util.HttpContext.getRequest;
+import static com.hyhcoder.quickframe.protal.common.core.util.HttpContext.getRequest;
 
 /**
  * 全局的的异常拦截器（拦截所有的控制器）

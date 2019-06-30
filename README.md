@@ -9,12 +9,12 @@
 ### 分层介绍
 
 #### common层
-1. 通用异常处理;
+1. 通用异常处理;(done)
 2. api接口版本控制处理;
 3. 常用的工具类:
    * 二维码生成类;
    * 阿里云oss操作类;
-   * http请求工具类
+   * http请求工具类(done)
    * 日期和json工具类
 
 #### mbg层(数据库层)
@@ -24,7 +24,7 @@
 
 #### protal层
 
-todo
+主要的业务逻辑实现
 
 #### 以及其他业务平行层
 
@@ -37,8 +37,3 @@ todo
 ### 包含的最佳实践
 
 todo
-
-### 参考项目
-1. https://github.com/looly/hutool
-2. https://github.com/macrozheng/mall
-https://github.com/neatlife/jframework
