@@ -7,6 +7,10 @@ import lombok.Data;
  * @date 2019-06-20
  *
  * 返回给前台的通用包装
+ *
+ * 返回值可以有两种思想, 一种如果不是纯粹restful的, 就直接返回200, 靠success的值来表示业务;
+ * 一种如果是restful的, 就要根据不同的状态码返回, success这个字段可以忽略;
+ *
  */
 @Data
 public class ResponseData {

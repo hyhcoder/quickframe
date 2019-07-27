@@ -13,6 +13,7 @@
         <module>quickframe-common</module>
         <module>quickframe-mbg</module>
         <module>quickframe-protal</module>
+        <module>quickframe-pay</module>
     </modules>
 
     <!-- 版本号配置 -->
