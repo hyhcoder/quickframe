@@ -67,7 +67,7 @@ public class CommonGenerator {
 		
 		// 数据源配置
 		DataSourceConfig dsc = new DataSourceConfig();
-		dsc.setUrl("jdbc:mysql://192.168.40.130:3306/testdb?useUnicode=true&useSSL=false&characterEncoding=utf8");
+		dsc.setUrl("jdbc:mysql://192.168.40.128:3306/testdb?useUnicode=true&useSSL=false&characterEncoding=utf8");
 		dsc.setDriverName("com.mysql.jdbc.Driver");
 		dsc.setUsername("root");
 		dsc.setPassword("123456");

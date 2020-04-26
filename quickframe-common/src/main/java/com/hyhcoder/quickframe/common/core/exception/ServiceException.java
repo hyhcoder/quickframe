@@ -5,7 +5,7 @@ import lombok.Setter;
 
 /**
  *
- * 业务异常的封装
+ * 业务异常的封装(常用)
  *
  * @author hyhcoder
  * @date 2019/6/29 15:58

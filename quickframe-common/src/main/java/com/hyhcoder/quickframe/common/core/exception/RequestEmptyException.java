@@ -3,7 +3,7 @@ package com.hyhcoder.quickframe.common.core.exception;
 import lombok.Data;
 
 /**
- * 业务异常的封装
+ * 业务异常的封装(特定的)
  *
  * @author hyhcoder
  * @date 2019/6/29 16:00
