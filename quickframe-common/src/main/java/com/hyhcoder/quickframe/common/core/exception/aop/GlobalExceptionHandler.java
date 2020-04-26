@@ -8,7 +8,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 import java.lang.reflect.UndeclaredThrowableException;
 
@@ -28,6 +32,18 @@ public class GlobalExceptionHandler {
 	
 	private Logger log = LoggerFactory.getLogger(this.getClass());
 	
+	/**
+	 * 拦截校验异常
+	 */
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+	@ResponseBody
+	public ErrorResponseData handleMethodArgumentNotValidException(MethodArgumentNotValidException e) {
+		if (getRequest() != null) {getRequest().setAttribute("tip", e.getMessage());}
+		log.error("校验异常:", e);
+		return new ErrorResponseData(BizExceptionEnum.PARAM_FAIL.getCode(),
+				e.getBindingResult().getFieldError().getDefaultMessage());
+	}
 	/**
 	 * 拦截业务异常
 	 */

@@ -16,6 +16,11 @@ public enum BizExceptionEnum implements AbstractBaseExceptionEnum {
 	 */
 	NO_PERMITION(4005, "权限异常"),
 	
+	/**
+	 * 校验异常
+	 */
+	PARAM_FAIL(4006, "校验异常"),
+	
 	
 	/**
 	 * 错误的请求
