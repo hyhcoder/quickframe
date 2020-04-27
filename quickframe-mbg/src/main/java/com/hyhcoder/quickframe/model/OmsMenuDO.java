@@ -12,30 +12,62 @@ import java.time.LocalDateTime;
 
 /**
  * <p>
- *
+ * 后台菜单表
  * </p>
  *
  * @author hyhcoder
- * @since 2019-07-14
+ * @since 2020-04-27
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("vote_record")
-public class VoteRecordDo implements Serializable {
+@TableName("oms_menu")
+public class OmsMenuDO implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
 	@TableId(value = "id", type = IdType.AUTO)
-	private Integer id;
+	private Long id;
 	
-	private String userId;
+	/**
+	 * 父级ID
+	 */
+	private Long parentId;
 	
-	private Integer voteId;
-	
-	private Integer groupId;
-	
+	/**
+	 * 创建时间
+	 */
 	private LocalDateTime createTime;
+	
+	/**
+	 * 菜单名称
+	 */
+	private String title;
+	
+	/**
+	 * 菜单级数
+	 */
+	private Integer level;
+	
+	/**
+	 * 菜单排序
+	 */
+	private Integer sort;
+	
+	/**
+	 * 前端名称
+	 */
+	private String name;
+	
+	/**
+	 * 前端图标
+	 */
+	private String icon;
+	
+	/**
+	 * 前端隐藏
+	 */
+	private Integer hidden;
 	
 	
 }

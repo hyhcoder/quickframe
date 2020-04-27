@@ -26,8 +26,12 @@
         <mybatis-plus.generator.version>3.1.0</mybatis-plus.generator.version>
         <velocity.version>2.1</velocity.version>
         <fastjson.version>1.2.56</fastjson.version>
-        <hutool.version>4.4.0</hutool.version>
+        <hutool.version>5.3.0</hutool.version>
         <lombok.versin>1.18.4</lombok.versin>
+        <quickframe-mbg.version>1.0.0-SNAPSHOT</quickframe-mbg.version>
+        <quickframe-common.version>1.0.0-SNAPSHOT</quickframe-common.version>
+        <quickframe-pay.version>1.0.0-SNAPSHOT</quickframe-pay.version>
+        <quickframe-security.version>1.0.0-SNAPSHOT</quickframe-security.version>
     </properties>
 
     <parent>
@@ -41,7 +45,32 @@
 
         <dependencies>
 
-            <!-- mybatis及增强 -->
+            <!-- 数据库包数据 -->
+            <dependency>
+                <groupId>com.hyhcoder</groupId>
+                <artifactId>quickframe-mbg</artifactId>
+                <version>${quickframe-mbg.version}</version>
+            </dependency>
+            <!-- common包 -->
+            <dependency>
+                <groupId>com.hyhcoder</groupId>
+                <artifactId>quickframe-common</artifactId>
+                <version>${quickframe-common.version}</version>
+            </dependency>
+            <!-- 支付相关包 -->
+            <dependency>
+                <groupId>com.hyhcoder</groupId>
+                <artifactId>quickframe-pay</artifactId>
+                <version>${quickframe-pay.version}</version>
+            </dependency>
+            <!-- 权限管理相关包 -->
+            <dependency>
+                <groupId>com.hyhcoder</groupId>
+                <artifactId>quickframe-security</artifactId>
+                <version>${quickframe-security.version}</version>
+            </dependency>
+
+            <!-- mybatis及增强, 生成 -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -52,6 +81,11 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis-plus.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatis-plus.generator.version}</version>
+            </dependency>
 
             <!-- druid连接池依赖 -->
             <dependency>
@@ -61,17 +95,10 @@
             </dependency>
 
             <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-generator</artifactId>
-                <version>${mybatis-plus.generator.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.apache.velocity</groupId>
                 <artifactId>velocity-engine-core</artifactId>
                 <version>${velocity.version}</version>
             </dependency>
-
 
             <!--工具类-->
             <dependency>
@@ -79,12 +106,12 @@
                 <artifactId>hutool-core</artifactId>
                 <version>${hutool.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>org.projectlombok</groupId>

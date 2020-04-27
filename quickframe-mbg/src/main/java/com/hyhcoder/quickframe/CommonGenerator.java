@@ -62,12 +62,12 @@ public class CommonGenerator {
 		// 指定xml的名称
 		gc.setXmlName("%sMapper");
 		// 设置指定model名
-		gc.setEntityName("%sDo");
+		gc.setEntityName("%sDO");
 		mpg.setGlobalConfig(gc);
 		
 		// 数据源配置
 		DataSourceConfig dsc = new DataSourceConfig();
-		dsc.setUrl("jdbc:mysql://192.168.40.128:3306/testdb?useUnicode=true&useSSL=false&characterEncoding=utf8");
+		dsc.setUrl("jdbc:mysql://192.168.40.128:3306/quickframe?useUnicode=true&useSSL=false&characterEncoding=utf8");
 		dsc.setDriverName("com.mysql.jdbc.Driver");
 		dsc.setUsername("root");
 		dsc.setPassword("123456");
