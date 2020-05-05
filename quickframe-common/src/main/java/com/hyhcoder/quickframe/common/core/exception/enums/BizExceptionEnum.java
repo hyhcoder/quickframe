@@ -17,6 +17,11 @@ public enum BizExceptionEnum implements AbstractBaseExceptionEnum {
 	NO_PERMITION(4005, "权限异常"),
 	
 	/**
+	 * 未登陆或token过期问题
+	 */
+	TOKEN_ERROR(4006, "未登陆或token已经过期"),
+	
+	/**
 	 * 校验异常
 	 */
 	PARAM_FAIL(4006, "校验异常"),
