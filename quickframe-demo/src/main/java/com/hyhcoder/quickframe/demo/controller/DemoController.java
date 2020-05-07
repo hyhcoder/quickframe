@@ -17,10 +17,18 @@ public class DemoController {
 	@Resource
 	private DemoService demoService;
 	
-	@RequestMapping("/getMenu")
+	@RequestMapping("/api/getMenu")
 	public ResponseData getMenu() {
 		
 		demoService.getMenu();
+		
+		return ResponseData.success();
+		
+	}
+	
+	@RequestMapping("/login")
+	public ResponseData login() {
+		
 		
 		return ResponseData.success();
 		
