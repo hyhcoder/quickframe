@@ -1,6 +1,7 @@
 package com.hyhcoder.quickframe.demo;
 
 
+import cn.hutool.core.date.DateUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,7 +14,7 @@ public class DemoApplicationTests {
 	
 	@Test
 	public void contextLoads() {
-	
+		System.out.println(DateUtil.date().month());
 	}
 	
 }

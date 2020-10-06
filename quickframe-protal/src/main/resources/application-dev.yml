@@ -17,7 +17,7 @@ spring:
   # 数据库及连接池
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.40.128:3306/quickframe?useUnicode=true&useSSL=false
+    url: jdbc:mysql://192.168.40.133:3306/quickframe?useUnicode=true&useSSL=false
     username: root
     password: 123456
     druid:
@@ -35,9 +35,26 @@ spring:
       min-evictable-idle-time-millis: 300000
   # redis配置
   redis:
-    host: 192.168.40.128
+    host: 192.168.40.133
     port: 6379
     password: 123456
+  rabbitmq:
+    host: 192.168.40.133
+    port: 5672
+    virtual-host: /
+    username: admin
+    password: 123456
+    connection-timeout: 20000
+    template:
+      reply-timeout: 20000
+      receive-timeout: 20000
+    publisher-confirms: true # 启动消息确认机制
+    publisher-returns: true # 启动消息失败返回机制
+    listener:
+      simple:
+        acknowledge-mode: manual # 启动手动应答消息模式
+
+
 mybatis:
   mapper-locations: classpath*:/mapper/*.xml
 

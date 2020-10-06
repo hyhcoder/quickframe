@@ -17,21 +17,23 @@
 
     <dependencies>
 
+        <!-- 数据库操作文件等 -->
         <dependency>
             <groupId>com.hyhcoder</groupId>
             <artifactId>quickframe-mbg</artifactId>
         </dependency>
 
+        <!-- 一些通用对象, 工具类 -->
         <dependency>
             <groupId>com.hyhcoder</groupId>
             <artifactId>quickframe-common</artifactId>
         </dependency>
 
-
         <!-- 工具类 -->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-core</artifactId>
+            <version>${hutool.version}</version>
         </dependency>
 
         <!-- rabbitMq配置 -->
@@ -50,6 +52,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!-- AMQP协议的mq类 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
         <!-- web配置 -->
@@ -74,6 +82,10 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>${com.alibaba.druid.version}</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
 
         <!-- devtools开发工具 -->
         <dependency>
@@ -81,15 +93,12 @@
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
+            <artifactId>spring-context</artifactId>
         </dependency>
+
         <!-- lomok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
