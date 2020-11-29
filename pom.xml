@@ -33,6 +33,7 @@
         <quickframe-pay.version>1.0.0-SNAPSHOT</quickframe-pay.version>
         <quickframe-security.version>1.0.0-SNAPSHOT</quickframe-security.version>
         <jjwt.version>0.9.0</jjwt.version>
+        <guava.version>27.1-jre</guava.version>
     </properties>
 
     <parent>
@@ -124,6 +125,12 @@
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>
                 <version>${jjwt.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
             </dependency>
 
         </dependencies>
