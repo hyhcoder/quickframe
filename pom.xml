@@ -25,7 +25,7 @@
         <mybatis-plus.version>3.1.0</mybatis-plus.version>
         <mybatis-plus.generator.version>3.1.0</mybatis-plus.generator.version>
         <velocity.version>2.1</velocity.version>
-        <fastjson.version>1.2.56</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <hutool.version>5.3.0</hutool.version>
         <lombok.versin>1.18.4</lombok.versin>
         <quickframe-mbg.version>1.0.0-SNAPSHOT</quickframe-mbg.version>
